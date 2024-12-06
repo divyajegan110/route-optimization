@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metro Route Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <header>
+        <h1>Metro Route Finder</h1>
+        <p>Find the shortest route between two stations</p>
+      </header>
+
+      <!-- Form Container -->
+      <div class="form-container">
+        <label for="source">Source</label>
+        <select id="source" class="dropdown"></select>
+
+        <label for="destination">Destination</label>
+        <select id="destination" class="dropdown"></select>
+
+        <button id="find-route" class="primary-button">Find Route</button>
+      </div>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2024 Metro Route Finder. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

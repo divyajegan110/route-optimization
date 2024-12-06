@@ -1,0 +1,10 @@
+{
+  "stations": ["kodambakkam", "navalur", "perungudi", "guindy", "mahabalipuram", "airport"],
+  "distances": [
+    { "from": "kodambakkam", "to": "navalur", "distance": 5 },
+    { "from": "navalur", "to": "perungudi", "distance": 8 },
+    { "from": "perungudi", "to": "airport", "distance": 2 },
+    { "from": "airport", "to": "guindy", "distance": 7 },
+    { "from": "kodambakkam", "to": "mahabalipuram", "distance": 15 }
+  ]
+}
